@@ -1,0 +1,610 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');*/
+@font-face {
+    font-family: 'Whitney Light';
+    src: url('/fonts/whitneylight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Whitney Medium';
+    src: url('/fonts/whitneymedium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Whitney Bold';
+    src: url('/fonts/whitneybold.woff') format('woff');
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-align: none;
+}
+header{
+    background: url(media/bg-img.jpg);
+    background-size: cover;
+    color: white;
+    height: 620px;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.header-complete{
+    position: absolute;
+    bottom: 0;
+}
+
+.logo-img{
+    width: 120px;
+    height: 35px;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    margin: 0rem 2rem;
+}
+.top-nav{
+    padding: 0.6rem 0rem;
+}
+.top-nav ul{
+    display: flex;
+    gap: 3rem;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.top-nav ul a:hover{    
+    text-decoration: underline;
+    cursor: pointer;
+}
+.discord-btn{
+}
+.btn{
+    background: white;
+    color: black;
+    font-size: 1rem;
+    border-radius: 25px;
+    padding: 10px 16px;
+    border: none;
+}
+.btn:hover{
+    box-shadow: 0px 2px 6px black;
+}
+.menuBar{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.container{
+    align-items: center;
+    margin: 8% 23%;
+    text-align: center;
+}
+.container h1{
+    font-family: 'Whitney Bold';
+    padding: 0.5rem 0rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-size: 4rem;
+}
+.container p{
+    font-family: 'Whitney Light';
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+}
+.container .download-btns{
+    display: flex;
+    justify-content: space-around;
+}
+.container .download-btns button{
+    font-size: 1.1rem;
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+    border: none;
+}
+.windows{
+    color: black;
+    background: white;
+}
+.browser{
+    color: white;
+    background: #171616;
+}
+.windows:hover{
+    color: #6471fd;
+}
+.browser:hover{
+    background: #2c2929;
+}
+.container .clouds{
+    position: center bottom;
+}
+.section-1{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    height: 550px;
+    padding: 10% 5% 5% 5%;
+    max-width: 126rem;
+}
+
+.sec-one-content{
+    padding: 1rem;
+    width: max-content;
+}
+.sec-one-content h1{
+    font-size: 3.5rem;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    font-family: 'Whitney Bold';
+    padding-top: 1rem;
+}
+.sec-one-content p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: rgb(24, 24, 24);
+    font-family: 'Whitney Light';
+
+}
+
+.section-2{
+    display: flex;
+    flex-direction: row-reverse;
+    background: rgb(222, 221, 221);
+    gap: 11%;
+    height: 550px;
+    padding: 10% 5% 5% 5%;   
+    max-width: 126rem; 
+}
+.sec-two-content{
+    padding: 1rem;
+    width:max-content;
+}
+
+.sec-two-content h1{
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    font-family: 'Whitney Bold';
+    padding-top: 4rem;
+}
+.sec-two-content p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: rgb(24, 24, 24);
+    font-family: 'Whitney Light';
+}
+.section-3{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    height: 550px;
+    padding: 10% 5% 5% 5%;
+    max-width: 126rem;
+}
+
+.sec-three-content{
+    padding: 3.5rem 1rem 1rem 1rem;
+    width: max-content;
+}
+.sec-three-content h1{
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    font-family: 'Whitney Bold';
+    padding-top: 1rem;
+}
+.sec-three-content p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: rgb(24, 24, 24);
+    font-family: 'Whitney Light';
+
+}
+.section-4{
+    display: flex;
+    flex-direction: column;
+    background: rgb(222, 221, 221);
+    gap: 5%;
+    height: max-content;
+    max-width: 126rem; 
+    align-items: center;
+}
+.section-4{
+    padding: 4rem;
+}
+.sec-four-content h1{
+    text-align: center;
+    font-family: 'Whitney Bold';
+    padding: 0.5rem 0rem;
+    font-weight: 700;
+    font-size: 3.6rem;
+}
+.section-4 .img4{
+    margin-top: 0rem;
+}
+.img4{
+    align-items: center;
+    width: 100%;
+}
+.sec-four-img{
+    width: 95%;
+    padding-left: 2rem;
+}
+.sec-four-content p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: rgb(64, 63, 63);
+    font-family: 'Whitney Light';
+    margin: 0.5rem 7rem 0rem 7rem;
+    text-align: center;
+}
+.sec-four-bottom{
+    font-size: 1.5rem;
+    position: relative;
+    width: max-content;
+    height: 4.5rem;
+    margin-bottom: 3rem;
+}
+
+.sec-four-bottom h1{
+    position: absolute;
+    bottom: 0;
+    padding: 0rem 0rem 0rem 2.5rem;
+}
+.section-4 .download-btns{
+    display: flex;
+    justify-content: space-around;
+}
+.section-4 .download-btns button{
+    font-size: 1.3rem;
+    padding: 1.2rem 2.5rem;
+    border-radius: 2rem;
+    border: none;
+}
+.section-4 .windows{
+    color: white;
+    background: #6471fd;
+}
+.section-4 .windows:hover{
+    color: white;
+    background: #7e88f9;
+    cursor: pointer;
+    box-shadow: 0px 8px 20px rgb(136, 136, 136);
+}
+footer{
+    padding: 5rem;
+    background: #171616;
+}
+.footer-container{
+    display: flex;
+    gap: 5%;
+    color: #6471fd;
+    border-bottom: 1px solid #6471fd;
+    padding-bottom: 2rem;
+}
+.icons{
+    width: 30%;
+}
+.icons h1{
+    font-size: 2.9rem;
+    font-family: 'Whitney Medium';
+    font-weight: 700;
+    line-height: 2.7rem;
+    padding-bottom: 1rem;
+}
+.icons .lang-menu{
+    font-size: 1rem;
+}
+
+.footersocial{
+    display: flex;
+    gap: 2rem;
+}
+.footersocial a{
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    
+}
+.footer-content{
+    display: flex;
+    gap: 30%;
+
+}
+.footer-content h6{
+    font-size: 1rem;
+    color: #6471fd;
+    font-weight: 100;
+    font-family: 'Whitney Light';
+    margin-bottom: 0.5rem;
+}
+.footer-content ul{
+    list-style: none;
+}
+.footer-content ul li{
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+.footer-content ul a{
+    text-decoration: none;
+    color: white;
+    font-weight: 5;
+    font-family: 'Whitney Light';
+}
+.footer-content ul a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.nav-right{
+    display: flex;
+}
+.footerdown{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+}
+.footerdown .fdownright button{
+    background: #6471fd;
+    font-size: 0.9rem;
+    border-radius: 25px;
+    padding: 10px 16px;
+    border: none;
+    font-weight: 100;
+}
+.fdownright a{
+    text-decoration: none;
+    color: white;
+}
+.fdownright button:hover{
+    background: #858ffa;
+    transition: all 0.3s ease;
+}
+@media screen and (max-width:1180px){
+    .top-nav{
+        display: none;
+    }
+    .navBar{
+        margin: 0rem 0rem;
+        padding: 1.5rem 1.5rem;
+    }
+    .nav-right{
+        width: max-content;
+        gap: 1.6rem;
+    }
+    header{
+        width: 100%;
+        align-items: left;
+        padding-left: 5%;
+        text-align: left;
+    }
+    
+    .download-btns{
+        margin-left: 0;
+        flex-direction: column;
+        padding-left: 0%;
+    }
+    .windows{
+        margin-bottom: 5%;
+    }
+    .container{
+        align-items: left;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        justify-items: left;
+    }
+    /* .section-1{
+     display: flex;
+     width: 100%;
+    }
+    .section .img1{
+        width: 30%;
+    }
+    .sec-one-img{
+        width: 30%;
+    }
+    .section-1 .sec-one-content{
+        width: 30%;
+    } */
+    
+}
+@media screen and (min-width:1200px){
+    .menuBar{
+        display: none;
+    }
+}
+@media screen and (max-width:851px) {
+    .navBar{
+        margin: 0rem 0rem;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    header{
+        padding-left: 0%;
+        align-items: center;
+        width: 100%;
+    }
+    .logo-img{
+        width: 120px;
+        height: 35px;
+    }
+    .top-nav{
+        display: none;
+    }
+    .btn{
+        font-size: 0.8rem;
+        padding: 8px 14px;
+    }
+    .menuBar{
+        width: 35px;
+        height: 33px;
+    }
+    .nav-right{
+        gap: 0.4rem;
+    }
+    .container{
+        align-items: left;
+        margin: 5% 5%;
+        text-align: left;
+    }
+    .container h1{
+        font-family: 'Whitney Bold';
+        padding: 0.5rem 0rem;
+        margin-bottom: 0.5rem;
+        font-weight: 400;
+        font-size: 1.8rem;
+    }
+    .container p{
+        font-family: 'Whitney Light';
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        line-height: 1.5rem;
+    }
+    .container .download-btns{
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+    }
+    .container .download-btns button{
+        font-size: 1.1rem;
+        padding: 1rem 2.5rem;
+        border-radius: 2rem;
+        border: none;
+    }
+    .section-1,.section-2,.section-3{
+        flex-direction: column;
+        padding: 0%;
+    }
+    .sec-one-content,.sec-two-content,.sec-three-content{
+        width: 95%;
+        padding: 0.5rem 0rem;
+    }
+    .sec-one-img{
+        width: 90%;
+        padding-left: 1rem;
+    }
+    .sec-two-img{
+        width: 90%;
+    }
+    .sec-three-img{
+        width: 90%;
+    }
+    .section-1,.section-2,.section-3{
+        width: 100%;
+        height: max-content;
+        text-align: left;
+        margin: 0%;
+        align-items: center;
+        gap: 4%;
+        padding: 2rem 0rem;
+    }
+    .sec-one-content h1{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding-top: 0%;
+        margin: 0.5rem 0.5rem 2rem 0.5rem;
+    }
+    .sec-two-content h1{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding-top: 0%;
+        margin: 0.5rem 0.5rem 2rem 0.5rem;
+    }
+    .sec-one-content p{
+        font-size: 1.06rem;
+        line-height: 1.8rem;
+        margin: 0.5rem;    
+    }
+    .sec-two-content p{
+        font-size: 1.06rem;
+        line-height: 1.8rem;
+        margin: 0.5rem;   
+    }
+    .sec-three-content h1{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding-top: 0%;
+        margin: 0.5rem 0.5rem 2rem 0.5rem;
+    }
+    .sec-three-content p{
+        font-size: 1.06rem;
+        line-height: 1.8rem;
+        margin: 0.5rem;      
+    }
+    .section-4{
+        height: max-content;
+        align-items: left;
+        padding: 1rem;
+    }
+    .sec-four-content h1{
+        width: 100%;
+        font-size: 1.8rem;
+        line-height: 1.5rem;
+    }
+    .sec-four-content p{
+        font-size: 1.06rem;
+        line-height: 1.8rem;
+        margin: 0.5rem;    
+    }
+    .sec-four-img{
+        width: 90%;
+    }
+    
+    .sec-four-bottom{
+        font-size: 1rem;
+        position: relative;
+        width: 100%;
+        height: 4.5rem;
+        text-align: center;
+    }
+    .img-sparkle{
+        width: 50%;
+    }
+    .sec-four-bottom h1{
+        position: absolute;
+        bottom: 0;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        padding: 2rem;
+    }
+    .icons{
+        width: 100%;
+        font-size: 1.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .footer-content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 10%;
+        margin-bottom: 2.5rem;
+    }
+    .footerdown .fdownright button{
+        font-size: 1rem;
+        padding: 6px 12px;
+    }
+    .footer-content ul li a{
+        font-weight: normal;
+    }
+
+    
+}
