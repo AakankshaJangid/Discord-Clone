@@ -121,9 +121,11 @@ header{
 }
 .windows:hover{
     color: #6471fd;
+    box-shadow: 0px 4px 12px #6471fd;
 }
 .browser:hover{
     background: #2c2929;
+    box-shadow: 0px 4px 12px #2c2929;
 }
 .container .clouds{
     position: center bottom;
