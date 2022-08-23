@@ -7,17 +7,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');*/
 @font-face {
     font-family: 'Whitney Light';
-    src: url('/fonts/whitneylight.woff') format('woff');
+    src: url('fonts/whitneylight.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Whitney Medium';
-    src: url('/fonts/whitneymedium.woff') format('woff');
+    src: url('fonts/whitneymedium.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Whitney Bold';
-    src: url('/fonts/whitneybold.woff') format('woff');
+    src: url('fonts/whitneybold.woff') format('woff');
 }
 *{
     padding: 0;
